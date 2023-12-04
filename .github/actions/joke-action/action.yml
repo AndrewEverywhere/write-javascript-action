@@ -2,8 +2,11 @@ name: "my js joke action"
 
 description: "use api to retrive and display joke"
 
+outputs:
+  joke-output:
+    description: the joke from API
+
 runs: 
   using: "node16"
   main: "main.js"
 
-  
